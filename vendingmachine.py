@@ -28,15 +28,15 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
                                                                                                      d8888P                                                                  
 """)
             print("Available items:")
-            print("Drinks: (D1) Coke ($1.00), (D2) Pepsi ($1.00), (D3) Water ($0.75), (D4) Prime ($5.45)")
-            print("Snacks: (S1) Lays ($1.50), (S2) Snickers Bar ($1.00), (S3) Nuts ($1.75), (D4) Cadburry ($1.25)")
+            print("Drinks: (D1) Coke ($1.00), (D2) Pepsi ($1.00), (D3) Water ($0.75), (D4) Prime ($5.45), (D5) Watermelon Juice ($1.00)")
+            print("Snacks: (S1) Lays ($1.50), (S2) Snickers Bar ($1.00), (S3) Nuts ($1.75), (D4) Cadburry ($1.25), (D5) Skittles ($1.00)")
             
             # Get user choice for 'Drinks' or 'Snacks'
             option = get_user_option()
 
             # Dictionary containing item prices for 'Drinks' and 'Snacks'
-            item_prices = {'Drinks': {'Coke': 1.00, 'Pepsi': 1.00, 'Water': 0.75, 'Prime': 5.45},
-                           'Snacks': {'Lays': 1.50, 'Chocolate Bar': 1.00, 'Nuts': 1.75, 'Cadburry': 1.25}}
+            item_prices = {'Drinks': {'Coke': 1.00, 'Pepsi': 1.00, 'Water': 0.75, 'Prime': 5.45, 'Watermelon Juice': 1.00},
+                           'Snacks': {'Lays': 1.50, 'Chocolate Bar': 1.00, 'Nuts': 1.75, 'Cadburry': 1.25, 'Skittles': 1.00}, }
 
             # Get user's chosen item
             print("\nChoose your item:")
